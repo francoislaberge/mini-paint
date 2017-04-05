@@ -1,0 +1,23 @@
+{
+  "name": "mini-paint",
+  "version": "1.0.0",
+  "description": "Online graphics editing tool lets create, edit images using HTML5 technologies. No need to buy, download, install or have obsolete flash. Key features: layers, drag & drop, transparency, filters, no-flash, open source.",
+  "main": "config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "shrinkray -i docs -o output/mini-paint.app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/francoislaberge/mini-paint.git"
+  },
+  "author": "",
+  "license": "LICENSE.txt",
+  "bugs": {
+    "url": "https://github.com/francoislaberge/mini-paint/issues"
+  },
+  "homepage": "https://github.com/francoislaberge/mini-paint#readme",
+  "devDependencies": {
+    "shrinkray": "^1.0.6"
+  }
+}

@@ -9,3 +9,5 @@ Thumbs.db
 nbproject/
 .git/
 /.project
+node_modules
+output
